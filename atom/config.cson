@@ -1,0 +1,53 @@
+"*":
+  "autocomplete-plus":
+    confirmCompletion: "enter"
+  core:
+    autoHideMenuBar: true
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "file-icons"
+      "minimap"
+      "webbox-color"
+      "wrap-guide"
+    ]
+    ignoredNames: [
+      ".git"
+      "_core"
+      "tmp"
+      "dist"
+      "node_modules"
+      "bower_components"
+    ]
+  editor:
+    fontFamily: "Monaco"
+    invisibles: {}
+    showInvisibles: true
+  "exception-reporting":
+    userId: "9271f751-9317-c1ec-03df-d92c59f8b44f"
+  "fuzzy-finder": {}
+  "fuzzy-finder-plus": {}
+  "go-imports": {}
+  "go-oracle": {}
+  "go-plus":
+    formatTool: "goreturns"
+    goInstallation: "/usr/local/go"
+    goPath: "~"
+  minimap:
+    absoluteMode: true
+  "one-dark-ui":
+    layoutMode: "Spacious"
+  tabs:
+    showIcons: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  welcome:
+    showOnStartup: false
+"source.gfm":
+  editor:
+    softWrap: true
+  layoutMode: "Spacious"
+  "wrap-guide":
+    enabled: false

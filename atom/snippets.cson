@@ -1,0 +1,6 @@
+'.source.go':
+  'For Range':
+    'prefix': 'fr'
+    'body': 'for _,$1 := range $2 {
+  $3
+} '
