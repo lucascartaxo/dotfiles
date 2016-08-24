@@ -28,3 +28,12 @@ export LESS_TERMCAP_md="${yellow}";
 
 # Don’t clear the screen after quitting a manual page.
 export MANPAGER='less -X';
+
+# Dirty state for GIT
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+# Ruby Garbage collector configs
+export RUBY_GC_MALLOC_LIMIT=128000000
+export RUBY_GC_HEAP_INIT_SLOTS=500000
+export RUBY_HEAP_SLOTS_GROWTH_FACTOR=1
+export RUBY_HEAP_SLOTS_INCREMENT=1
